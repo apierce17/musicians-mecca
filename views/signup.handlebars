@@ -1,0 +1,92 @@
+<body id="signup">
+      <section>
+        <nav class="navbar navbar-light bg-trans">
+            <div class="container-fluid justify-content-center">
+              <a class="navbar-brand" href="/login">
+                <img src="/images/logos/M-Logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+              </a>
+            </div>
+          </nav>
+
+          <div id="signupcard" class="container d-flex justify-content-center col-6-lg">
+            <div class="card text-center shadow-lg" style="width: 75%;">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" href="/signup">Sign Up</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body form-group">
+                    <form action="/signup" method="post">
+                      <div id="user-info">
+                        <div class="mb-3">
+                          <label for="inputfirstname" class="form-label">First Name:</label>
+                          <input type="firstname" class="form-control" name="inputfirstname" id="inputfirstname" aria-describedby="" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputlastname" class="form-label">Last Name:</label>
+                            <input type="lastname" class="form-control" name="inputlastname" id="inputlastname" aria-describedby="" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputlastname" class="form-label">Username:</label>
+                            <input type="text" name="username" class="form-control" id="username" aria-describedby="" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="text" class="form-control" name="email" id="email" aria-describedby="" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Create Password:</label>
+                            <input type="password" class="form-control" name="password" id="inputpassword" aria-describedby="" >
+                        </div>
+                        <div class="mb-3">
+                          <label for="" class="form-label">Type of account:</label>
+                          <br>
+                          <div class="btn-group" role="group" aria-label="">
+                            <select name="role" id="role">
+                              <option value="teacher">Teacher</option>
+                              <option value="student">Student</option>
+                            </select>
+                          </div>
+                      </div>
+                      </div>
+                      <div id="student-info" class="">
+                        <div class="mb-3">
+                          <label for="" class="form-label">Pick your instrument:</label>
+                          <br>
+                          <div class="btn-group" role="group" aria-label="">
+                            <select name="instrument" id="instrument">
+                              <option value="Bass">Bass</option>
+                              <option value="Guitar">Guitar</option>
+                              <option value="Drums">Drums</option>
+                              <option value="Clarient">Clarient</option>
+                              <option value="Piano">Piano</option>
+                            </select>
+                          </div>
+                      </div>
+                        <div class="mb-3">
+                          <label for="" class="form-label">What's your style of music?</label>
+                          <br>
+                          <div class="btn-group" role="group" aria-label="">
+                            <select name="style" id="style">
+                              <option value="Jazz">Jazz</option>
+                              <option value="Classical">Classical</option>
+                              <option value="Rock">Rock</option>
+                          </select>
+                          </div>
+                        </div>                 
+                        </div>
+                        <div>
+                          <input id="signupbutton" class="btn btn-primary" type="submit" value="Sign Up"/>
+                        </div>
+                      </form>
+                </div>
+              </div>
+          </div>
+        
+      </section>
+    </body>
