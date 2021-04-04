@@ -162,6 +162,9 @@
     "type": "git",
     "url": ""
   },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  },
   "author": "",
   "license": "ISC",
   "homepage": ""
