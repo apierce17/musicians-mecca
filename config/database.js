@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-module.exports =  new Sequelize('musical_mecca', 'root', 'password', {
+module.exports =  new Sequelize('jq858yyyih34r7ni', 'd8bq5beeo54cpifq', 'bl5fb0nnk1k1ji0r', {
   host: 'localhost',
   port: 3306,
   dialect: 'mysql',
